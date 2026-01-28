@@ -1,0 +1,8 @@
+
+
+    Python is a high-level, interpreted programming language created by Guido van Rossum and first released in 1991. Named after the comedy troupe Monty Python, rather than the reptile, it was designed with a core philosophy emphasizing code readability and simplicity, often summarized in The Zen of Python.
+
+It is a multi-paradigm language, supporting object-oriented, procedural, and functional programming styles. A defining technical characteristic is its use of significant whitespace for indentation rather than curly braces, which forces a clean, standardized visual structure. Python is dynamically typed and features an automatic garbage collection system for memory management.
+
+Today, it is the worlds most popular language according to the TIOBE Index, primarily due to its dominance in Machine Learning, Data Science, and Artificial Intelligence, supported by powerful libraries like TensorFlow, PyTorch, and Scikit-learn. Its vast ecosystem includes the Python Package Index (PyPI), which hosts over 500,000 projects. From powering the backend of Instagram and Netflix to controlling scientific instruments at NASA, Python serves as the glue language of modern computing, balancing ease of use with the industrial-grade power required for complex RAG pipelines and scalable web applications.
+
