@@ -27,30 +27,6 @@ Persistent Vector Store: Embeddings are stored locally in ChromaDB, ensuring dat
 
 API-First Design: Fully documented endpoints via Swagger/OpenAPI.
 
-🚀 Getting Started
-1. Prerequisites
-Ensure you have uv installed:
-
-Bash
-pip install uv
-2. Setup Environment
-Clone the repository:
-
-Bash
-git clone https://github.com/suyash503/RAG_krishNaik.git
-cd RAG_krishNaik
-Create a .env file in the root directory:
-
-Code snippet
-GROQ_API_KEY=your_groq_api_key_here
-3. Installation & Run
-Using uv for a seamless setup:
-
-Bash
-uv venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-uv pip install -r requirements.txt
-python main.py
 📂 Project Structure
 Plaintext
 ├── data/               # Source PDF files (Placement/Academic notes)
@@ -58,3 +34,4 @@ Plaintext
 ├── main.py             # FastAPI application and RAG logic
 ├── .env                # API keys (ignored by git)
 └── requirements.txt    # Project dependencies
+
