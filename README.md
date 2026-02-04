@@ -1,0 +1,60 @@
+🚀 AI-Powered Placement Knowledge Base (RAG)
+A high-performance Retrieval-Augmented Generation (RAG) system designed to provide instant, context-aware answers from university placement materials and technical documentation.
+
+Built with FastAPI, LangChain, and Groq, this project demonstrates a production-grade approach to handling private data with LLMs.
+
+🛠️ Tech Stack
+Language: Python 3.10+
+
+Orchestration: LangChain
+
+LLM: Groq (Llama-3-70b/Mixtral) for ultra-fast inference.
+
+Vector Database: ChromaDB (Local persistent storage).
+
+API Framework: FastAPI
+
+Package Manager: uv (for 10x faster dependency resolution).
+
+✨ Key Features
+Efficient Document Ingestion: Uses PyPDFDirectoryLoader to process bulk PDF materials.
+
+Smart Context Chunking: Implements RecursiveCharacterTextSplitter to maintain semantic meaning within text fragments.
+
+High-Speed Retrieval: Leverages Groq’s LPU (Language Processing Unit) for near-instant response generation.
+
+Persistent Vector Store: Embeddings are stored locally in ChromaDB, ensuring data isn't re-processed on every run.
+
+API-First Design: Fully documented endpoints via Swagger/OpenAPI.
+
+🚀 Getting Started
+1. Prerequisites
+Ensure you have uv installed:
+
+Bash
+pip install uv
+2. Setup Environment
+Clone the repository:
+
+Bash
+git clone https://github.com/suyash503/RAG_krishNaik.git
+cd RAG_krishNaik
+Create a .env file in the root directory:
+
+Code snippet
+GROQ_API_KEY=your_groq_api_key_here
+3. Installation & Run
+Using uv for a seamless setup:
+
+Bash
+uv venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+uv pip install -r requirements.txt
+python main.py
+📂 Project Structure
+Plaintext
+├── data/               # Source PDF files (Placement/Academic notes)
+├── chroma_db/          # Persistent vector database storage
+├── main.py             # FastAPI application and RAG logic
+├── .env                # API keys (ignored by git)
+└── requirements.txt    # Project dependencies
