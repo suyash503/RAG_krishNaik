@@ -8,3 +8,31 @@ wheels/
 
 # Virtual environments
 .venv
+.env
+
+# Editor / OS
+.vscode/
+.idea/
+*.log
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Python / test / build
+.venv/
+__pypackages__/
+.pytest_cache/
+.coverage
+htmlcov/
+mypy_cache/
+pip-wheel-metadata/
+
+# Notebook / data / caches
+.ipynb_checkpoints/
+*.sqlite3
+vector_store/
+data/*.sqlite3
+
+# Environment / secrets
+.env.*
+.envrc
