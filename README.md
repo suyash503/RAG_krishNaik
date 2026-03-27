@@ -35,3 +35,6 @@ Plaintext
 ├── .env                # API keys (ignored by git)
 └── requirements.txt    # Project dependencies
 
+
+<img width="1241" height="490" alt="image" src="https://github.com/user-attachments/assets/a442caaf-df65-47b5-87b7-8a46fc1df450" />
+
